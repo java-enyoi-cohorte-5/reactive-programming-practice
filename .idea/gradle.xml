@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/exercises/ex01-mono-just-or-empty" />
+            <option value="$PROJECT_DIR$/exercises/ex02-flux-map-filter" />
+            <option value="$PROJECT_DIR$/exercises/ex03-mono-flatmap-chain" />
+            <option value="$PROJECT_DIR$/exercises/ex04-flux-filter-non-empty" />
+            <option value="$PROJECT_DIR$/exercises/ex05-mono-on-error-resume" />
+            <option value="$PROJECT_DIR$/exercises/ex06-flux-distinct-stable" />
+            <option value="$PROJECT_DIR$/exercises/ex07-mono-default-if-empty" />
+            <option value="$PROJECT_DIR$/exercises/ex08-flux-concat-values" />
+            <option value="$PROJECT_DIR$/exercises/ex09-mono-map-transform" />
+            <option value="$PROJECT_DIR$/exercises/ex10-flux-take-limit" />
+            <option value="$PROJECT_DIR$/exercises/ex11-mono-switch-if-empty" />
+            <option value="$PROJECT_DIR$/exercises/ex12-flux-skip-elements" />
+            <option value="$PROJECT_DIR$/exercises/ex13-mono-handle-parse" />
+            <option value="$PROJECT_DIR$/exercises/ex14-flux-buffer-batches" />
+            <option value="$PROJECT_DIR$/exercises/ex15-mono-filter-blank" />
+            <option value="$PROJECT_DIR$/exercises/ex16-flux-window-batches" />
+            <option value="$PROJECT_DIR$/exercises/ex17-mono-defer-lazy" />
+            <option value="$PROJECT_DIR$/exercises/ex18-flux-reduce-join" />
+            <option value="$PROJECT_DIR$/exercises/ex19-mono-on-error-return" />
+            <option value="$PROJECT_DIR$/exercises/ex20-flux-scan-running-total" />
+            <option value="$PROJECT_DIR$/exercises/ex21-mono-timeout-fallback" />
+            <option value="$PROJECT_DIR$/exercises/ex22-flux-group-by-initial" />
+            <option value="$PROJECT_DIR$/exercises/ex23-mono-context-greeting" />
+            <option value="$PROJECT_DIR$/exercises/ex24-flux-limit-rate" />
+            <option value="$PROJECT_DIR$/exercises/ex25-mono-subscribe-on" />
+            <option value="$PROJECT_DIR$/exercises/ex26-flux-publish-on" />
+            <option value="$PROJECT_DIR$/exercises/ex27-imperative-to-reactive" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

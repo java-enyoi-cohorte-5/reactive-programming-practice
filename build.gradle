@@ -1,0 +1,36 @@
+allprojects {
+    group = 'dev.rp.practice'
+    version = '0.1.0'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+
+    tasks.withType(Test).configureEach {
+        useJUnitPlatform()
+        testLogging {
+            events 'failed', 'skipped'
+        }
+    }
+
+    dependencies {
+        implementation 'io.projectreactor:reactor-core:3.6.8'
+
+        testImplementation platform('org.junit:junit-bom:5.10.2')
+        testImplementation 'org.junit.jupiter:junit-jupiter'
+        testImplementation 'org.junit.jupiter:junit-jupiter-params'
+        testImplementation 'org.assertj:assertj-core:3.25.3'
+        testImplementation 'io.projectreactor:reactor-test:3.6.8'
+        testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    }
+}
