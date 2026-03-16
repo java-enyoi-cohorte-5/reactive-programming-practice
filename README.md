@@ -65,8 +65,8 @@ Ver indice completo en exercises/README.md.
 8. `ex08-flux-concat-values` - secuencias con `concatWithValues`
 9. `ex09-mono-map-transform` - transformaciones puras
 10. `ex10-flux-take-limit` - limitacion con `take`
- .
-#.## Intermedio
+ 
+### Intermedio
 
 11. `ex11-mono-switch-if-empty` - alternar fuente con `switchIfEmpty`
 12. `ex12-flux-skip-elements` - desplazamiento con `skip`
@@ -76,7 +76,7 @@ Ver indice completo en exercises/README.md.
 16. `ex16-flux-window-batches` - ventanas con `window`
 17. `ex17-mono-defer-lazy` - evaluacion lazy con `defer`
 18. `ex18-flux-reduce-join` - reduccion con `reduce`
-  .
+
 ### Avanzado
 
 19. `ex19-mono-on-error-return` - recuperacion simple con `onErrorReturn`
@@ -87,4 +87,4 @@ Ver indice completo en exercises/README.md.
 24. `ex24-flux-limit-rate` - control de demanda con `limitRate`
 25. `ex25-mono-subscribe-on` - scheduler de suscripcion
 26. `ex26-flux-publish-on` - scheduler de procesamiento
-27ex27-imperative-to-reactive` - refactor declarativo end-to-end
+27. `ex27-imperative-to-reactive` - refactor declarativo end-to-end
